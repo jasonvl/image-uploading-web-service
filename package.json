@@ -1,0 +1,25 @@
+{
+  "name": "jasonandkahlil",
+  "version": "1.0.0",
+  "description": "we're doing it up homie",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kahliloppenheimer/JasonAndKahlil.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kahliloppenheimer/JasonAndKahlil/issues"
+  },
+  "homepage": "https://github.com/kahliloppenheimer/JasonAndKahlil#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "multer": "^1.3.0"
+  }
+}

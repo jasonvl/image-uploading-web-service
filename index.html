@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Fruit Uploader</title>
+  <meta name="description" content="Upload your fav fruit!">
+  <meta name="author" content="Jason">
+
+  <link rel="stylesheet" type="text/css" href="resources/css/styles.css">
+  <!-- For Bootstap -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<!--  -->
+<body>
+<div class="container">
+  <div class="jumbotron">
+    <script src="server.js"></script>
+    <p> Everyone <b>LOVES</b> fruits </p>
+  
+        <!-- creates a file uploader form -->
+      <h3>Fruit Upload:</h3>
+        Please upload a picture of your favorite fruit: <br />
+        
+        <form action = "http://127.0.0.1:3000/file_upload" method = "POST" enctype =   "multipart/form-data">
+            <input type="file" name="file" size="50" />
+            <br />
+            <input type = "submit" value = "Upload File" />
+        </form>
+    </div>
+  </div>
+
+</body>
+</html>
